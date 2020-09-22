@@ -38,6 +38,6 @@
   "devDependencies": {
     "marked": "^0.3.19",
     "docco": "^0.7.0",
-    "jsdoc": "^3.5.5"
+    "jsdoc": "^3.6.6"
   }
 }
