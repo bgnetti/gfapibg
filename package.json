@@ -36,7 +36,7 @@
     "speakeasy": "^2.0.0"
   },
   "devDependencies": {
-    "marked": "^0.3.19",
+    "marked": "^1.2.7",
     "docco": "^0.7.0",
     "jsdoc": "^3.5.5"
   }
