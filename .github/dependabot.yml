@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: highlight.js
+    versions:
+    - 10.5.0
+    - 10.6.0
+    - 10.7.1
+  - dependency-name: marked
+    versions:
+    - 1.2.8
+    - 1.2.9
+    - 2.0.0
+    - 2.0.1
+  - dependency-name: file-type
+    versions:
+    - 16.2.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: docco
+    versions:
+    - 0.8.0
